@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+</head>
+<body>
+    <center>
+        
+        <h1>This is CANVAS TAG </h1>
+        <p>The canvas element provides scripts with a resolution-dependent bitmap canvas, which can be used for rendering graphs, game graphics, art, or other visual images on the fly.</p>
+    </center>
+    <hr>
+<canvas>This is a First Comment Tag</canvas>
+<canvas id="mycanvas" width="300px" height="150px" fill="green" style="border: 2px solid red;"></canvas>
+<hr>
+<center>
+    <h2>fillRect()</h2>
+</center>
+    <hr>
+    <canvas id="mycanvas2" style="border: 2px solid red;"></canvas>
+    <script>
+        let canvas=document.getElementById("mycanvas2").getContext("2d");
+        canvas.fillStyle="green";
+        canvas.fillRect(50,25,200,100);
+    </script>
+<hr>
+
+</body>
+</html>
